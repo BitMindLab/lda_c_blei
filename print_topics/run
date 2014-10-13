@@ -1,0 +1,3 @@
+ python topics.py 010.beta words_cut.txt 30
+sleep 1000
+#暂停1000秒

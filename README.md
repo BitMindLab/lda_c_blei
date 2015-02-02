@@ -14,7 +14,7 @@ Notes by XuSong
 模型输出:
 
 * .[model] :alpha   beta 
-* .theta(也就是gamma)，gamma虽然是dir参数，但是k维gamma的相对大小能够反映k维theta的相对大小,theta可以用gamma的归一化来表示)
+* .theta(也就是gamma)，theta~dir(gamma)，E(theta_k)=gamma_k/sum(gamma). k维gamma的相对大小能够反映k维theta的相对大小,可直接用于分类器分类等任务)
 * .beta, sum(exp(a))=1（已验证）
 * likehood，也就是P(W|alpha,beta)
        
